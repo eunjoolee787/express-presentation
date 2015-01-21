@@ -1,4 +1,4 @@
-# Getting started with express.js
+# Getting Started with Express.js
 
 
 * A web application framework
