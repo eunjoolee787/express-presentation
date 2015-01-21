@@ -27,6 +27,23 @@ Install Express in the app directory and save it in the dependencies list
 $ npm install express --save
 ```
 
+```bash
+$ touch app.js 
+```
+#### In app.js file:
+```javascript
+var express = require ('express');
+var app = express();
+
+app.get('/', function (req, res) {
+    res.send('Hello World!');
+});
+
+var server = app.listen (3000, function () {
+
+});
+````
+
 The app starts a server and listens on port for connection.  It will respond with "Hello World!" for request to the homepage.
 
 Save the code in file named app.js and run it with the following command
