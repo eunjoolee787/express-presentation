@@ -109,6 +109,7 @@ h1
 Save the code in file named app.js and run it with the following command
 
 ```bash
+$ cd ..
 $ node app.js
 ```
 
