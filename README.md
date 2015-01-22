@@ -33,7 +33,7 @@ $ touch app.js
 ```
 #### In app.js file:
 ```javascript
-var express = require ('express');
+var express = require('express');
 var app = express();
 
 app.get('/', function (req, res) {
